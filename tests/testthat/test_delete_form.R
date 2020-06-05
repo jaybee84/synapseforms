@@ -15,7 +15,6 @@
 
 
 library(testthat)
-install.packages("mockery")
 library(mockery)
 
 test_that("delete_form deletes the correct form", {
